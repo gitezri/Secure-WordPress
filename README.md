@@ -12,6 +12,8 @@ Do not use FTP nor ProFTP.
 
 To mitigate this, use programs like SFTP or vsFTP (Secure-FTP or Very Secure FTP)
 
+![SFTP Information:](https://kb.iu.edu/d/akqg "SFTP")
+
 Alternatively, you can use SCP, WinSCP.
 
 SFTP is a Linux secure file transfer utility.
