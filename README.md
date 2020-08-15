@@ -8,7 +8,7 @@ Typical catch 22: You need to update frequently because the software is full of 
 
 Do not use FTP nor ProFTP. 
 
-![FTP](/home/ezri/mywordpress/sftp/Setting-up-an-FTP-Client.png  "FTP")
+![FTP](https://github.com/gitezri/Secure-WordPress/blob/master/Setting-up-an-FTP-Client.png  "FTP")
 
 To mitigate this, use programs like SFTP or vsFTP (Secure-FTP or Very Secure FTP)
 
