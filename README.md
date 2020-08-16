@@ -71,7 +71,7 @@ Known Security Issues Counts (August 2020)
 
 To mitigate this issue you have to "security baseline" the app and don't deploy your app until all major flaws are patched or mitigated.
 
-I wrote an article on web applications security baselining on github.com [web application baselining](https://github.com/gitezri/owasp-zap-base/blob/master/README.md)
+I wrote an article on web applications security baselining on github.com: [Web Application Baselining](https://github.com/gitezri/owasp-zap-base/blob/master/README.md)
 
 ## Pressing Issue #3: Configuration Hard-Coded Passwords
 
