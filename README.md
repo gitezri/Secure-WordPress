@@ -80,7 +80,7 @@ These features, just as subcontractors or third-parties, introduce new vectors o
 |WordPress  |1,222  |
 |SFTP  |35  |
 
-### Installing, Configuring and Upgrading WordPress with Security Focus
+### Countermeasure: Controlled Install, Configure and Upgrade WordPress with Security Focus
 
 You can find complete instructions at this site: [Wordpress.org](https://wordpress.org/support/article/upgrading-wordpress-extended-instructions/) 
 
