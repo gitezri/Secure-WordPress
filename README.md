@@ -82,7 +82,7 @@ These features, just as subcontractors or third-parties, introduce new vectors o
 
 ### Installing, Configuring and Upgrading WordPress with Security Focus
 
- [See this site: Wordpress.org](https://wordpress.org/support/article/upgrading-wordpress-extended-instructions/) 
+You can find complete instructions at this site: [Wordpress.org](https://wordpress.org/support/article/upgrading-wordpress-extended-instructions/) 
 
 To mitigate this issue you have to "security baseline" the app and don't deploy your app until all major flaws are patched or mitigated.
 
