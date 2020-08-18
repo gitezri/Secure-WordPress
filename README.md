@@ -63,7 +63,7 @@ Additinal information can also be found here: [More Examples](https://kinsta.com
 	$ wp core version
 	4.5.2
 
-****Remember, all these commands are being ran via a super encrypted SSH tunnel.
+****Remember, all these commands are being ran-through a super encrypted SSH tunnel.
 
 
 ## Pressing Issue # 2: The WordPress Application is Very Insecure by Nature.
