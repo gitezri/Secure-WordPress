@@ -1,12 +1,15 @@
 # WordPress Perils and Countermeasures
 
-## Pressing Issue # 1: FTP
+WordPress is the most widely used Content Management System CMS on the today. It was never build with "security" or "privacy" as a required priority.
+Using this application without taking "major" countermeasures to over its innate flaws would be ludicrous.
 
-WordPress sites use FTP (file transfer protocol) for all kinds of updates. This protocol is 100% insecure! 
+## Pressing Issue # 1: Insecure FTP (File Transfer Protocol)
 
-Typical catch 22: You need to update frequently because the software is full of holes. Then you use a risky protocol for those updates.
+The WordPress application manages udates and customization via FTP. This file tranfer protocol is 100% insecure! 
 
-Do not use FTP nor ProFTP. 
+You have the typical catch 22: You need to update frequently because the software is full of holes. Then you use a risky protocol for those updates.
+
+### Countermeasure: Do not use these applications and protocols based on them: FTP or ProFTP. 
 
 ![FTP](https://github.com/gitezri/Secure-WordPress/blob/master/Setting-up-an-FTP-Client.png  "FTP")
 
