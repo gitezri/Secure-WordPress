@@ -1,6 +1,6 @@
 # WordPress Perils and Countermeasures 
 
-[WordPress Issues](https://github.com/gitezri/Secure-WordPress/blob/master/zeroday.jpeg "WordPress Flaws")
+![WordPress Issues](https://github.com/gitezri/Secure-WordPress/blob/master/zeroday.jpeg "WordPress Flaws")
 
 WordPress is the most widely used Content Management System CMS on the market today. It was never build with "security" or "privacy" as a required priority.
 Using this application without taking "major" countermeasures to overcome its innate flaws would be ludicrous.
