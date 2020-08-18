@@ -32,9 +32,9 @@ Following are the linux commands to start the service and how to connect to it.
 	
 then you can connect with
 	
-	sftp userx@x.x.x.x (and provide you entropy password)
+	sftp userx@x.x.x.x (and provide your "entropy" password)
 	
-### Best FTP CounterMeasure.
+### Best FTP CounterMeasure: Command Line Pull Requests via WP Utility.
 The best solution for insure file transfer is not use FTP, but rather base updates on the command line. 
 This forces updates to use the secure of you Operating System. This puts the controls in your hand. 
 
