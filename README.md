@@ -13,16 +13,20 @@ You have the typical catch 22: You need to update frequently because the softwar
 
 ![FTP](https://github.com/gitezri/Secure-WordPress/blob/master/Setting-up-an-FTP-Client.png  "FTP")
 
-To mitigate this, use programs like SFTP or vsFTP (Secure-FTP or Very Secure FTP)
+To mitigate this, use programs/protocols like SFTP or vsFTP (Secure-FTP or Very Secure FTP)
 
 You can find more info no secure-FTP here: ![SFTP Information](https://kb.iu.edu/d/akqg  "SFTP")
 
 Alternatively, you can use SCP, WinSCP.
 
 SFTP is a Linux secure file transfer utility.
-It practically can't be setup with 2FA key-file for web file transfer.
-You have to only rely on entropy passwords, which is good enough.
-Note: SFTP is a subsystem of SSH or OpenSSH and constitutes your secure FTP server.
+Its practical. It can be setup with key-file that are basically a 2-factor-authentification 2FA, for web file transfer.
+
+You can also merely rely on password entropy (complex passwords), which is good enough.
+
+Note: SFTP is a subsystem of SSH/OpenSSH and it is what constitutes a "secure FTP server".
+
+Following are the linux commands to start the service and how to connect to it.
 
 	service sshd start 
 	
@@ -30,13 +34,20 @@ then you can connect with
 	
 	sftp userx@x.x.x.x (and provide you entropy password)
 	
-The best solution for FTP problem is to use the [WP CLI](https://developer.wordpress.org/cli/commands/)  (WordPress Command Line Interface). It focuses all transfers via the security of your hosts' operating system. You achieve "total security" via Operating System's SSH (Secure Shell).
+### Best FTP CounterMeasure.
+The best solution for insure file transfer is not use FTP, but rather base updates on the command line. 
+This forces updates to use the secure of you Operating System. This puts the controls in your hand. 
+
+We accomplish security by using the "WP" utility. [WP CLI](https://developer.wordpress.org/cli/commands/ "WP CLI, WordPress Command Line Interface"). 
+It focuses all transfers via the security of your Operating System. 
+
+#### You achieve "total security" via Operating System's SSH (Secure Shell).
 
 ### The WP Command Line Interface
 
-See this site [WP CLI](https://kinsta.com/blog/wp-cli/#getting-wp-cli) 
+You can find more information about "WP CLI", here: [WP CLI](https://kinsta.com/blog/wp-cli/#getting-wp-cli) 
 
-Alternatively also here [More Examples](https://kinsta.com/knowledgebase/manually-update-wordpress-plugin/) 
+Additinal information can also be found here: [More Examples](https://kinsta.com/knowledgebase/manually-update-wordpress-plugin/) 
 
 	# Download WordPress core
 	$ wp core download --locale=nl_NL
