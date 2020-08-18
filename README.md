@@ -15,7 +15,7 @@ You have the typical catch 22: You need to update frequently because the softwar
 
 To mitigate this, use programs like SFTP or vsFTP (Secure-FTP or Very Secure FTP)
 
-![SFTP Information](https://kb.iu.edu/d/akqg  "SFTP")
+You can find more info no secure-FTP here: ![SFTP Information](https://kb.iu.edu/d/akqg  "SFTP")
 
 Alternatively, you can use SCP, WinSCP.
 
@@ -55,28 +55,29 @@ Alternatively also here [More Examples](https://kinsta.com/knowledgebase/manuall
 ****Remember, all these commands are being ran via a super encrypted SSH tunnel.
 
 
-## Pressing Issue # 2: WordPress
+## Pressing Issue # 2: The WordPress Application is Very Insecure by Nature.
 
-Using WordPress and all of its plugins and buggy themes.
+Using WordPress and all of its plugins and buggy themes. Application plugins and application themes are used to make WordPress a very productive tool.
+These features, just as subcontractors or third-parties, introduce new vectors of complexity and insecurity. You have to vet these "enhancements" with your life. The greater the complexity, greater are the changes of security vulnerabilities, flaws and failures.
 
-Known Security Issues Counts (August 2020)
+### Known Security Issues Counts (August 2020)
 
 |Software  |Issues  |
 |--|--|
-|FTP  |1088  |
+|FTP  |1,088  |
 |ProFTP  |45  |
-|WordPress  |1222  |
+|WordPress  |1,222  |
 |SFTP  |35  |
 
-### Installing and Upgrading WordPress
+### Installing, Configuring and Upgrading WordPress with Security Focus
 
  [See this site: Wordpress.org](https://wordpress.org/support/article/upgrading-wordpress-extended-instructions/) 
 
 To mitigate this issue you have to "security baseline" the app and don't deploy your app until all major flaws are patched or mitigated.
 
-I wrote an article on web applications security baselining on github.com: [Web Application Security Baselining](https://github.com/gitezri/owasp-zap-base/blob/master/README.md)
+For more information, you can consult the articlue I wrote on web applications security baselining. You can find it on github.com: [Web Application Security Baselining](https://github.com/gitezri/owasp-zap-base/blob/master/README.md)
 
 ## Pressing Issue #3: Configuration Hard-Coded Passwords
 
-Your are responsible to remove any Hard-coded user IDs and passwords.
+This a big problem all over the industry. You are responsible to remove any Hard-coded user IDs and passwords.
 
