@@ -1,11 +1,11 @@
 # WordPress Perils and Countermeasures
 
-WordPress is the most widely used Content Management System CMS on the today. It was never build with "security" or "privacy" as a required priority.
-Using this application without taking "major" countermeasures to over its innate flaws would be ludicrous.
+WordPress is the most widely used Content Management System CMS on the market today. It was never build with "security" or "privacy" as a required priority.
+Using this application without taking "major" countermeasures to overcome its innate flaws would be ludicrous.
 
 ## Pressing Issue # 1: Insecure FTP (File Transfer Protocol)
 
-The WordPress application manages udates and customization via FTP. This file tranfer protocol is 100% insecure! 
+The WordPress application manages updates and customization via FTP. This file transfer protocol is 100% insecure! 
 
 You have the typical catch 22: You need to update frequently because the software is full of holes. Then you use a risky protocol for those updates.
 
@@ -75,7 +75,7 @@ These features, just as subcontractors or third-parties, introduce new vectors o
 
 To mitigate this issue you have to "security baseline" the app and don't deploy your app until all major flaws are patched or mitigated.
 
-For more information, you can consult the articlue I wrote on web applications security baselining. You can find it on github.com: [Web Application Security Baselining](https://github.com/gitezri/owasp-zap-base/blob/master/README.md)
+For more information, you can consult the article I wrote on web applications security baselining. You can find it on GitHub.com: [Web Application Security Baselining](https://github.com/gitezri/owasp-zap-base/blob/master/README.md)
 
 ## Pressing Issue #3: Configuration Hard-Coded Passwords
 
