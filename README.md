@@ -1,6 +1,6 @@
 # WordPress Perils and Countermeasures 
 
-![WordPress Issues](https://github.com/gitezri/Secure-WordPress/blob/master/zeroday.jpeg "WordPress Flaws")
+![WordPress Issues](zeroday.jpeg "WordPress Flaws")
 
 WordPress is the most widely used Content Management System CMS on the market today. It was never build with "security" or "privacy" as a required priority.
 Using this application without taking "major" countermeasures to overcome its innate flaws would be ludicrous.
@@ -13,7 +13,7 @@ You have the typical catch 22: You need to update frequently because the softwar
 
 ### Countermeasure: Do not use these applications and protocols based on them: FTP or ProFTP. 
 
-![FTP](https://github.com/gitezri/Secure-WordPress/blob/master/Setting-up-an-FTP-Client.png  "FTP")
+![FTP](Setting-up-an-FTP-Client.png  "FTP") 
 
 To mitigate this, use programs/protocols like SFTP or vsFTP (Secure-FTP or Very Secure FTP)
 
