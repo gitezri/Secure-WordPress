@@ -94,3 +94,4 @@ For more information, you can consult the article I wrote on web applications se
 
 This a big problem all over the industry. You are responsible to remove any Hard-coded user IDs and passwords.
 
+![Correct File Permissions](permissions.png)
