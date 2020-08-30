@@ -95,3 +95,9 @@ For more information, you can consult the article I wrote on web applications se
 This a big problem all over the industry. You are responsible to remove any Hard-coded user IDs and passwords.
 
 ![Correct File Permissions](permissions.png)
+
+## Additional Security Steps
+
+See this article on [File permmisson Security](https://www.getastra.com/blog/cms/wordpress-security/wordpress-file-permissions/)
+
+Fixing WP Security aka [Hardening WP](https://wordpress.org/plugins/wp-security-hardening/?utm_medium=promotioneffort&utm_campaign=promotioneffort)
